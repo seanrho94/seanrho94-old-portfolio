@@ -57,7 +57,7 @@ header .row .col-md-5 {
 
 header .row .col-md-7 {
   padding: 22vmin 1vmin;
-  padding-bottom: 35vmin;
+  padding-bottom: 43vmin;
   font-family: var(--Rubik);
   color: white;
 }
@@ -402,4 +402,15 @@ footer {
   background: rgba(0, 0, 0, 0.815);
   z-index: 9999;
   transition: all 1.5s ease;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+  }
 }
