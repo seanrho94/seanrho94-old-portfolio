@@ -186,7 +186,7 @@ header .nav-link:hover {
 
 @media screen and (max-width: 754px) {
   .intro {
-    padding-top: 0vmin;
+    margin-top: -20%;
   }
 
   svg {
