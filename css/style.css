@@ -102,8 +102,8 @@ header .nav-link:hover {
 .intro {
   min-height: 90vh;
   width: 90%;
-  padding-top: 10vmin;
   margin: auto;
+  padding-top: 10vmin;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   display: -webkit-box;
@@ -185,6 +185,10 @@ header .nav-link:hover {
 }
 
 @media screen and (max-width: 754px) {
+  .intro {
+    padding-top: 0vmin;
+  }
+
   svg {
     height: 60%;
   }
@@ -314,6 +318,12 @@ header .nav-link:hover {
   width: 100%;
   height: 97vmin;
   border-radius: 0.2em;
+}
+
+@media screen and (max-width: 767px) {
+  .section-1 .row .col-md-6 .pray img {
+    display: none
+  }
 }
 
 .section-1 .row .col-md6:last-child {
