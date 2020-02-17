@@ -37,10 +37,6 @@ header .nav-item:last-child {
   padding-right: 10.5em;
 }
 
-header .navbar {
-  border-bottom: 1px solid #ffffff30;
-}
-
 header .nav-item {
   padding: 0.9em;
 }
